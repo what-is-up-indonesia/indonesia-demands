@@ -2,9 +2,19 @@
   "demands": [
     {
       "index": "1",
+      "title": "End involvement of the military (TNI) in civilian security, and ensure no protestors are criminalized.",
+      "details": [
+        "History reveals that TNI's presence in demonstrations or civil rallies may trigger wide-spread violence. The 2019 presidential election protests and the 1998 Trisakti Incident are few examples.",
+        "President Prabowo himself said that protesting is a constitutional right of every citizen, and therefore it must be guaranteed, free from threats and violence."
+      ],
+      "status": "Unfulfilled",
+      "target": "Prabowo"
+    },
+    {
+      "index": "1",
       "title": "End involvement of the military (TNI) in civilian security, and to ensure no protestors are criminalized.",
       "details": [
-        "History reveals that TNI’s presence in demonstrations or civil rallies may trigger wide-spread violence. The 2019 presidential election protests and the 1998 Trisakti Incident are few examples.",
+        "History reveals that TNI's presence in demonstrations or civil rallies may trigger wide-spread violence. The 2019 presidential election protests and the 1998 Trisakti Incident are few examples.",
         "President Prabowo himself said that protesting is a constitutional right of every citizen, and therefore it must be guaranteed, free from threats and violence."
       ],
       "status": "Unfulfilled",
