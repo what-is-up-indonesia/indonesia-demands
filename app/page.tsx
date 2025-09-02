@@ -3,6 +3,8 @@ import {Alert, AlertTitle} from "@/components/ui/alert";
 import {AlarmClockCheckIcon, AlertCircleIcon} from "lucide-react";
 import Link from "next/link";
 import {Separator} from "@/components/ui/separator";
+import {DemandFulfilledWeek} from "@/app/demand-fulfilled";
+import {DemandFulfilledYear} from "@/app/demand-fulfilled-year";
 
 export default function Home() {
   return (
@@ -13,10 +15,16 @@ export default function Home() {
         <h1 className="text-(--pink-color) scroll-m-20 text-7xl font-extrabold text-balance uppercase tracking-wide">Demands from the people</h1>
         <h1 className="text-(--green-color) scroll-m-20 text-5xl font-bold tracking-tight text-balance my-4">Transparency, Reformation, Empathy.</h1>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
+            <DemandFulfilledWeek />
+            <DemandFulfilledYear />
+        </div>
+
+
         <Alert variant="destructive" className="mt-8">
         <AlarmClockCheckIcon />
         <AlertTitle>
-            17 demands due by Friday, 5 September 2025
+            17 demands due on Friday, 5 September 2025
         </AlertTitle>
     </Alert>
 
