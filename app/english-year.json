@@ -1,0 +1,115 @@
+{
+  "demands": [
+    {
+      "index": "1",
+      "title": "\"Clean up\" and overhaul DPR on a large scale.",
+      "bullets": [
+        "Launch independent audits that are open to the public.",
+        "Raise qualification standards for MPs, and reject corruption convicts to become MPs.",
+        "Establish key performance indicators (KPIs) to evaluate their performance.",
+        "Abolish special privileges: life-long pension, special transport and escort, and tax relief using the state budget."
+
+      ],
+      "details": [
+        "School children receive report cards at the end of every semester, and MPs should too. DPR is like a class without exams and marks, filled with lazy students who constantly ask for hefty pocket money."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    },
+    {
+      "index": "2",
+      "title": "Reform political parties and strengthen oversight of the executive branch.",
+      "bullets": [
+        "Political parties must publish their annual budgetary report this year.",
+        "DPR must ensure the opposition parties function properly."
+      ],
+      "details": [
+        "People are wondering, where do political parties get their money from? We must ensure all people cannot be “bought”. There must be some people who are brave enough to criticize the government when the conditions are not right.",
+        "You have the money, you have the power..."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    },
+    {
+      "index": "3",
+      "title": "Draft a fairer tax reform plan.",
+      "bullets": [
+        "Reconsider the balance of funds and budget transfers from the central government to local governments.",
+        "Cancel raising taxes that burden the people.",
+        "Launch a more equitable tax reform."
+      ],
+      "details": [
+        "There is no need to remind you that (1) there was a plan to raise the Value-Added Tax (VAT) from 11% to 12% and (2) the Regent of Pati planned to raise the Land and Building Tax by 250%.",
+        "People are furious because these taxes put enormous pressure on the working class. Tax can be a tool to pursue economic equity if targeted at the right people."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    },
+    {
+      "index": "4",
+      "title": "Pass and enforce the Asset Confiscation Bill (RUU Perampasan Aset).",
+      "bullets": [
+        "DPR must immediately pass RUU Perampasan Aset in this parliamentary session to demonstrate serious commitment to eradicate corruption.",
+        "Strengthen the institutional independence of the KPK as well as the Anti-Corruption Law (UU Tipikor)."
+      ],
+      "details": [
+        "Imagine someone robs you $1,000. After a long time chasing, trials, and imprisoning the robber, you only get $10 back. With transparency and strong enforcement of law, UU Perampasan Aset is likely to get your $1,000 back."
+      ],
+      "status": "In Progress",
+      "target": "LongTerm"
+    },
+    {
+      "index": "5",
+      "title": "Reform a more professional and humane leadership and system within the police.",
+      "bullets": [
+        "DPR must revise the Police Law (UU Kepolisian).",
+        "Decentralize the police’s function on civil order, civil security, and traffic policing in 12 months as an early step."
+      ],
+      "details": [
+        "The police’s job is viewed as broad but centralized, so their work seems to be slow. Police should delegate jobs to their local units or other institutions. Police are expected to be close with society, focus on enforcing the law, and respect human rights."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    },
+    {
+      "index": "6",
+      "title": "Return TNI to the barracks. No exception.",
+      "bullets": [
+        "The government must repeal the order to involve the military in civilian projects, such as large-scale agriculture (the food estate), by this year.",
+        "DPR must amend the Armed Forces Law (UU TNI)."
+      ],
+      "details": [
+        "Many believe that it is hard to oversee the TNI in civilian projects since they are so used to carrying weapons. Unfortunately, the recently amended UU TNI gave a green light for doing so, widening the risk of abuse of power."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    },
+    {
+      "index": "7",
+      "title": "Strengthen the National Commission on Human Rights (Komnas HAM) and other independent oversight bodies",
+      "bullets": [
+        "DPR must amend the Komnas HAM Law to broaden its authority on freedom of expression.",
+        "The president must reinforce the Office of the Ombudsman and the Police Oversight Commission (Kompolnas)."
+      ],
+      "details": [
+        "Komnas HAM, Ombudsman, and Kompolnas are a bunch of overseeing groups. They exist to ensure the government and state apparatus are fair and respect human rights while on duty."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    },
+    {
+      "index": "8",
+      "title": "Review economic and labor policies.",
+      "bullets": [
+        "Vigorously review policies regarding National Strategic Projects (PSN) and economic priorities, and their impacts on indigenous people's rights and the environment.",
+        "Evaluate the Job Creation Law (UU Cipta Kerja) that puts burdens on workers.",
+        "Evaluate and audit the management of Danantara and State-Owned Enterprises (BUMN)."
+      ],
+      "details": [
+        "Not just focus on note-taking in economic development, but must also take into account its environmental impacts. So, it is not only benefitting the elites, but also people at large."
+      ],
+      "status": "Unfulfilled",
+      "target": "LongTerm"
+    }
+  ]
+}
