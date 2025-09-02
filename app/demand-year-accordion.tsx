@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/accordion"
 
 // import from english.json
-import en from "@/app/english.json"
+import en from "@/app/english-year.json"
 import {Badge} from "@/components/ui/badge";
 
 function statusToVariant(status: string) {
@@ -35,7 +35,7 @@ function statusToClassName(status: string) {
     }
 }
 
-export function DemandAccordion({target, start = 1}: { target?: string; start?: number }) {
+export function DemandYearAccordion({target, start = 1}: { target?: string; start?: number }) {
         return (
             <Accordion type="single" collapsible className="w-auto" asChild>
                 <ol className="list-decimal leading-zero-list ml-9 text-lg" start={start}>
@@ -47,8 +47,16 @@ export function DemandAccordion({target, start = 1}: { target?: string; start?: 
                                         <span><h1>{demand.title}</h1><Badge className={statusToClassName(demand.status)} variant={statusToVariant(demand.status)}>{demand.status}</Badge></span>
                                     </AccordionTrigger>
                                     <AccordionContent>
-                                        {demand.details.map((detail, index) => (
-                                            <div key={detail} className={index > 0 ? "mt-4" : ""}>
+                                        <ul className="pl-6">
+                                            {demand.bullets.map((bullet, index) => (
+                                                <li key={index} className="flex gap-2">
+                                                    <span className="w-4">•</span> {/* manual bullet */}
+                                                    <span>{bullet}</span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                        {demand.details.map(detail => (
+                                            <div key={detail} className="mt-4">
                                                 <p className="hyphens-auto">
                                                     {detail}
                                                 </p>

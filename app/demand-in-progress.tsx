@@ -21,8 +21,9 @@ import { ChartConfig, ChartContainer } from "@/components/ui/chart"
 
 export const description = "A radial chart with text"
 
+
 const chartData = [
-    { demands: 0, fill: "var(--green-color)" },
+    { demands: 3, fill: "var(--color-yellow-100)" },
 ]
 
 const chartConfig = {
@@ -31,12 +32,12 @@ const chartConfig = {
     },
 } satisfies ChartConfig
 
-export function DemandFulfilledWeek() {
+export function DemandInProgressWeek() {
     return (
         <Card className="flex flex-col">
             <CardHeader className="items-center pb-0">
-                <CardTitle>Fulfillment for the 17 Demands</CardTitle>
-                <CardDescription>Updates to be given on fulfilled demands</CardDescription>
+                <CardTitle>Progress for the 17 Demands</CardTitle>
+                <CardDescription>For unfulfilled demands.</CardDescription>
             </CardHeader>
             <CardContent className="flex-1 pb-0">
                 <ChartContainer

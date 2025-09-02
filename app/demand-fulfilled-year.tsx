@@ -21,16 +21,8 @@ import { ChartConfig, ChartContainer } from "@/components/ui/chart"
 
 export const description = "A radial chart with text"
 
-function daysLeft(endDate: string) {
-    const now = new Date()
-    const end = new Date(endDate)
-    const diffTime = Math.abs(end.getTime() - now.getTime())
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
-    return diffDays
-}
-
 const chartData = [
-    { demands: 5, fill: "var(--green-color)" },
+    { demands: 0, fill: "var(--green-color)" },
 ]
 
 const chartConfig = {
@@ -43,8 +35,8 @@ export function DemandFulfilledYear() {
     return (
         <Card className="flex flex-col">
             <CardHeader className="items-center pb-0">
-                <CardTitle>Fulfillment for the 8 Demands</CardTitle>
-                <CardDescription>Due on 31 August 2026</CardDescription>
+                <CardTitle>Fulfillment for the Eight Demands</CardTitle>
+                <CardDescription>Updates to be given on fulfilled demands</CardDescription>
             </CardHeader>
             <CardContent className="flex-1 pb-0">
                 <ChartContainer
@@ -100,11 +92,6 @@ export function DemandFulfilledYear() {
                     </RadialBarChart>
                 </ChartContainer>
             </CardContent>
-            <CardFooter className="flex-col gap-2 text-sm">
-                <div className="flex items-center gap-2 leading-none font-medium">
-                    <AlarmClockCheckIcon className="h-4 w-4" /> {daysLeft("2026-08-31")} days left until the deadline.
-                </div>
-            </CardFooter>
         </Card>
     )
 }
