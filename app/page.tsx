@@ -46,7 +46,7 @@ export default function Home() {
             <h2 className="font-bold text-xl mt-8">
                 For President Prabowo
             </h2>
-            <DemandAccordion target="Prabowo"/>
+            <DemandAccordion target="Prabowo" start={1}/>
 
             <h2 className="font-bold text-xl mt-8">
                 For the House of Representatives (DPR)
