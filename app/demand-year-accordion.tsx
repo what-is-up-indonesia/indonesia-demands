@@ -49,7 +49,7 @@ export function DemandYearAccordion({target, start = 1}: { target?: string; star
                                     <AccordionContent>
                                         <ul className="pl-6">
                                             {demand.bullets.map((bullet, index) => (
-                                                <li key={index} className="flex gap-2">
+                                                <li key={index} className="flex gap-2 content-start">
                                                     <span className="w-4">•</span> {/* manual bullet */}
                                                     <span>{bullet}</span>
                                                 </li>
