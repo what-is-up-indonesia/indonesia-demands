@@ -50,8 +50,8 @@ export function DemandYearAccordion({target, start = 1}: { target?: string; star
                                         <ul className="pl-6">
                                             {demand.bullets.map((bullet, index) => (
                                                 <li key={index} className="flex gap-2 content-start">
-                                                    <span className="w-4">•</span> {/* manual bullet */}
-                                                    <span>{bullet}</span>
+                                                    <div className="w-2">•</div> {/* manual bullet */}
+                                                    <div className="flex-1">{bullet}</div>
                                                 </li>
                                             ))}
                                         </ul>
