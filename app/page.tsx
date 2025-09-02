@@ -21,22 +21,41 @@ export default function Home() {
             <h1 className="text-(--green-color) scroll-m-20 text-5xl font-bold tracking-tight text-balance my-4">Transparency,
                 Reformation, Empathy.</h1>
 
-            <p>For the Indonesian version, go to <Link className="text-(--pink-color) hover:underline" href="https://rakyatmenuntut.com/">Rakyat Menuntut</Link>.</p>
+            <p>For the Indonesian version, go to <Link className="text-(--pink-color) hover:underline" href="https://rakyatmenuntut.net/">Rakyat Menuntut</Link>.</p>
 
             <h1 className="text-3xl font-extrabold tracking-tight text-balance mt-12">
-                First 17 Demands
+                Status Update
             </h1>
-            <Alert variant="destructive" className="mt-6">
+            <h2 className="font-bold text-xl mt-8">
+                First 17 Demands
+            </h2>
+            <Alert variant="destructive" className="mt-4">
                 <AlarmClockCheckIcon/>
                 <AlertTitle>
                     Due on Friday, 5 September 2025. <DaysLeftCalculate endDate="2025-09-05" />
                 </AlertTitle>
             </Alert>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
                 <DemandInProgressWeek/>
                 <DemandFulfilledWeek/>
             </div>
+            <h2 className="font-bold text-xl mt-8">
+                Eight Long-Term Demands
+            </h2>
+            <Alert className="mt-4">
+                <AlertCircleIcon/>
+                <AlertTitle>
+                    Due on Monday, 31 August 2025. <DaysLeftCalculate endDate="2026-08-31"/>
+                </AlertTitle>
+            </Alert>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+                <DemandInProgressYear/>
+                <DemandFulfilledYear/>
+            </div>
+
+            <h1 className="text-3xl font-extrabold tracking-tight text-balance mt-12">
+                First 17 Demands
+            </h1>
 
             <h2 className="font-bold text-xl mt-8">
                 For President Prabowo
@@ -71,21 +90,6 @@ export default function Home() {
             <h1 className="text-3xl font-extrabold tracking-tight text-balance mt-12">
                 Eight Long-Term Demands
             </h1>
-
-            <Alert className="mt-6">
-                <AlertCircleIcon/>
-                <AlertTitle>
-                    Due on Monday, 31 August 2025. <DaysLeftCalculate endDate="2026-08-31"/>
-                </AlertTitle>
-            </Alert>
-
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
-                <DemandInProgressYear/>
-                <DemandFulfilledYear/>
-            </div>
-
-
 
             <DemandYearAccordion target="LongTerm"/>
 
