@@ -1,25 +1,144 @@
 {
   "demands": [
     {
-      "title": "Pull the military out of civil security affairs and ensure no demonstrators are criminalized.",
-      "description": "The demands of the protesters.",
-      "details": ["Past notes showed that the military's (TNI) involvement in demonstrations can spark widespread violence. The 2019 Presidential Election protests or the 1998 Trisakti Tragedy, for example.", "Line break."],
+      "index": "1",
+      "title": "End involvement of the military (TNI) in civilian security, and to ensure no protestors are criminalized.",
+      "details": [
+        "History reveals that TNI’s presence in demonstrations or civil rallies may trigger wide-spread violence. The 2019 presidential election protests and the 1998 Trisakti Incident are few examples.",
+        "President Prabowo himself said that protesting is a constitutional right of every citizen, and therefore it must be guaranteed, free from threats and violence."
+      ],
       "status": "Unfulfilled",
       "target": "Prabowo"
     },
     {
-      "title": "Demand 1",
-      "description": "Description of demand 1.",
-      "details": ["Detailed information about demand 1."],
-      "status": "Fulfilled",
+      "index": "2",
+      "title": "Form an independent investigation team into the cases of Affan Kurniawan, Umar Amarudin, as well as other victims of state violence and human rights violations by security forces during the August 28–29 demonstrations, with a clear and transparent mandate.",
+      "details": [
+        "Such independent investigations are usually set up to probe extraordinary cases that leave major unanswered questions. The team’s work must be accessible and can be understood by the public, and it must fight for the perpetrators to be genuinely held into account under the law."
+      ],
+      "status": "In Progress",
       "target": "Prabowo"
     },
     {
-      "title": "Demand 2",
-      "description": "Description of demand 2.",
-      "details": ["Detailed information about demand 2."],
+      "index": "3",
+      "title": "Freeze salary/benefit increases for MPs, and cancel new facilities (including pension funds).",
+      "details": [
+        "Increasing MPs salary does not go in line with the government's budget “efficiency” and the worsening economic situation which hardly impacts Indonesians.",
+        "Their sky-high wages are not proportional to their unsatisfactory work."
+      ],
+      "status": "Fulfilled",
+      "target": "DPR"
+    },
+    {
+      "index": "4",
+      "title": "Proactively publish budget transparency (salaries, benefits, housing, and facilities for MPs) with regular reporting.",
+      "details": [
+        "Although DPR’s budget report is accessible, the money spent is often disguised. For example, expenses for work trips go as high as Rp4.2 billion (US$256,000) per MP, per year.",
+        "What’s extraordinary is, according to ICW, no accountability report has been published for the 2024–2025 term."
+      ],
       "status": "Unfulfilled",
       "target": "DPR"
+    },
+    {
+      "index": "5",
+      "title": "Urge the DPR’s Ethics Committee to examine members who are problematic, including to also involve the Corruption Eradication Commission (KPK).",
+      "details": [
+        "Surveys show that public trust in the DPR is low. The DPR’s Ethics Committee (MKD) must seriously oversee and examine MPs. If MKD does not perform well, KPK is demanded to double-down the investigations."
+      ],
+      "status": "Unfulfilled",
+      "target": "DPR"
+    },
+    {
+      "index": "6",
+      "title": "Dismiss or strictly sanction party cadres who act unethically and provoke public anger.",
+      "details": [
+          "We are facing unprecedented, manifold, and aggravating crises: climate crisis, collapsing job market, flux of global economy, social conflicts, and many more. Political parties are demanded to be on the side of the people amidst these crises."
+      ],
+      "status": "Unfulfilled",
+      "target": "Parpol"
+    },
+    {
+      "index": "7",
+      "title": "DPR members must engage in public dialogues together with students and civil society to strengthen meaningful participation.",
+      "details": [
+        "Many Indonesians feel that political parties only come into view during general elections. Party cadres must get out from hiding inside the mighty parliament complex, and be present to talk directly with students and the public so that they can understand the actual problems."
+      ],
+      "status": "Unfulfilled",
+      "target": "Parpol"
+    },
+    {
+      "index": "8",
+      "title": "Release all detained demonstrators, and ensure that protesters are not criminalized.",
+      "details": [
+        "The National Commission on Human Rights (Komnas HAM) reported that 351 protesters were in police custody on August 25.",
+        "On August 28, allegedly, 600 more were detained.",
+        "This number should have been 0."
+      ],
+      "status": "Unfulfilled",
+      "target": "Polri"
+    },
+    {
+      "index": "9",
+      "title": "Arrest, prosecute, and transparently bring to justice officers and commanders who ordered and carried out acts of violence.",
+      "details": [
+        "There are too many police officers that did not receive enough punishments for violating human rights. Foundation of Legal Aid Institutes (YLBHI) recorded 55 civilians died in the hands of police from June 2024 to June 2025."
+      ],
+      "status": "Unfulfilled",
+      "target": "Polri"
+    },
+    {
+      "index": "10",
+      "title": "Return to the barracks immediately. Stop involvement in civil security.",
+      "details": [
+        "Indonesians are worried that the dual-function of TNI is making a comeback. There were 4,500 TNI and Police officers present on the streets of Jakarta during the protests on September 1."
+      ],
+      "status": "Unfulfilled",
+      "target": "TNI"
+    },
+    {
+      "index": "11",
+      "title": "Enforce internal discipline so that TNI members do not take the function of the police.",
+      "details": [
+        "TNI has the job to protect the country against threats of sovereignty. The Police is the one who has the duty to maintain public order."
+      ],
+      "status": "Unfulfilled",
+      "target": "TNI"
+    },
+    {
+      "index": "12",
+      "title": "Make a public commitment from the TNI not to interfere in civilian spaces during the democratic crisis.",
+      "details": [
+        "In March, an amendment to the Armed Forces Law (UU TNI) provided opportunities for active soldiers to serve in public offices. Many parties demanded that the TNI openly commit to leave civil spaces alone."
+      ],
+      "status": "Unfulfilled",
+      "target": "TNI"
+    },
+    {
+      "index": "13",
+      "title": "Ensure decent wages for all sectors of the workforce (including but not limited to teachers, healthcare workers, laborers, ride-hailing drivers) across Indonesia.",
+      "details": [
+        "As of February 2025, 47% of Indonesian workers were paid below the minimum wage. Yes, you read it correctly: almost half of our workers do not receive a decent wage."
+      ],
+      "status": "Unfulfilled",
+      "target": "Menko"
+    },
+    {
+      "index": "14",
+      "title": "Take emergency measures to prevent mass layoffs and protect contract workers.",
+      "details": [
+        "Some 40,000 workers have been laid off until July 2025. This number increased by around 30% from the same period last year."
+      ],
+      "status": "Unfulfilled",
+      "target": "Menko"
+    },
+    {
+      "index": "15",
+      "title": "Open dialogue with labor unions to resolve issues related to minimum wage and outsourcing.",
+      "details": [
+        "There are a number of outsourcing laborers with uncertain legal status, and their wage is way below standards. Can you imagine working for dozens of years, getting paid with a stagnant amount of money, and no clear career path?"
+      ],
+      "status": "Unfulfilled",
+      "target": "Menko"
     }
   ]
 }

@@ -122,3 +122,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.leading-zero-list {
+    list-style-type: decimal-leading-zero;
+}
+

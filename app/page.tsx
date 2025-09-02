@@ -28,27 +28,27 @@ export default function Home() {
         <h2 className="font-bold text-xl mt-8">
             For the People's Representative Council (DPR)
         </h2>
-        <DemandAccordion target="DPR" />
+        <DemandAccordion target="DPR" start={3} />
 
         <h2 className="font-bold text-xl mt-8">
             For the Heads of Political Parties
         </h2>
-        <DemandAccordion target="DPR" />
+        <DemandAccordion target="Parpol" start={6} />
 
         <h2 className="font-bold text-xl mt-8">
             For the Indonesian Police (Polri)
         </h2>
-        <DemandAccordion target="DPR" />
+        <DemandAccordion target="Polri" start={8} />
 
         <h2 className="font-bold text-xl mt-8">
             For the Indonesian Military (TNI)
         </h2>
-        <DemandAccordion target="DPR" />
+        <DemandAccordion target="TNI" start={10} />
 
         <h2 className="font-bold text-xl mt-8">
             For Ministries in the Economic Sector
         </h2>
-        <DemandAccordion target="DPR" />
+        <DemandAccordion target="Menko" start={13} />
 
         <Separator className="my-8"></Separator>
 
