@@ -1,0 +1,25 @@
+{
+  "demands": [
+    {
+      "title": "Pull the military out of civil security affairs and ensure no demonstrators are criminalized.",
+      "description": "The demands of the protesters.",
+      "details": ["Past notes showed that the military's (TNI) involvement in demonstrations can spark widespread violence. The 2019 Presidential Election protests or the 1998 Trisakti Tragedy, for example.", "Line break."],
+      "status": "Unfulfilled",
+      "target": "Prabowo"
+    },
+    {
+      "title": "Demand 1",
+      "description": "Description of demand 1.",
+      "details": ["Detailed information about demand 1."],
+      "status": "Fulfilled",
+      "target": "Prabowo"
+    },
+    {
+      "title": "Demand 2",
+      "description": "Description of demand 2.",
+      "details": ["Detailed information about demand 2."],
+      "status": "Unfulfilled",
+      "target": "DPR"
+    }
+  ]
+}
