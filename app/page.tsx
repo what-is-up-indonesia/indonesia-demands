@@ -31,7 +31,6 @@ export default function Home() {
                 <DemandInProgressWeek/>
                 <DemandInProgressYear/>
             </div>
-
             <h1 className="text-3xl font-extrabold tracking-tight text-balance mt-12">
                 17 Initial Demands
             </h1>
@@ -77,7 +76,7 @@ export default function Home() {
                 8 Long-Term Demands
             </h1>
 
-            <Alert className="mt-6">
+            <Alert className="mt-6 mb-4">
                 <AlertCircleIcon/>
                 <AlertTitle>
                     Due on Monday, 31 August 2025. <DaysLeftCalculate endDate="2026-08-31"/>

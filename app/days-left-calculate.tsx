@@ -6,7 +6,7 @@ const daysLeft = (endDate: string) => {
     const now = new Date()
     const end = new Date(endDate)
     const diffTime = end.getTime() - now.getTime()
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
 
     if (diffDays > 0) {
         return `${diffDays} days left.`
