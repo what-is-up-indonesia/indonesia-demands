@@ -17,7 +17,7 @@ import {
     ChartTooltip,
     ChartTooltipContent,
 } from "@/components/ui/chart"
-import {DaysLeftCalculate} from "@/app/days-left-calculate";
+import {DaysLeftCalculate} from "@/app/(frontend)/days-left-calculate";
 
 export const description = "A radial chart with stacked sections"
 

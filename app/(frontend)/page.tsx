@@ -1,16 +1,25 @@
-import {DemandAccordion} from "@/app/demand-accordion";
+import {DemandAccordion} from "@/app/(frontend)/demand-accordion";
 import {Alert, AlertTitle} from "@/components/ui/alert";
 import {AlarmClockCheckIcon, AlertCircleIcon} from "lucide-react";
 import Link from "next/link";
 import {Separator} from "@/components/ui/separator";
-import {DemandFulfilledWeek} from "@/app/demand-fulfilled";
-import {DemandFulfilledYear} from "@/app/demand-fulfilled-year";
-import {DemandInProgressWeek} from "@/app/demand-in-progress";
-import {DaysLeftCalculate} from "@/app/days-left-calculate";
-import {DemandInProgressYear} from "@/app/demand-in-progress-year";
-import {DemandYearAccordion} from "@/app/demand-year-accordion";
+import {DemandFulfilledWeek} from "@/app/(frontend)/demand-fulfilled";
+import {DemandFulfilledYear} from "@/app/(frontend)/demand-fulfilled-year";
+import {DemandInProgressWeek} from "@/app/(frontend)/demand-in-progress";
+import {DaysLeftCalculate} from "@/app/(frontend)/days-left-calculate";
+import {DemandInProgressYear} from "@/app/(frontend)/demand-in-progress-year";
+import {DemandYearAccordion} from "@/app/(frontend)/demand-year-accordion";
 
-export default function Home() {
+import { getPayload } from 'payload'
+import config from '@payload-config'
+
+const payload = await getPayload({ config })
+
+export default async function Home() {
+    const result = await payload.find({
+        collection: 'demands',
+        limit: 10,
+    })
     return (
         <div>
             <h1 className="text-(--pink-color) scroll-m-20 text-9xl font-extrabold tracking-tighter text-balance mt-8">
@@ -85,6 +94,16 @@ export default function Home() {
 
             <DemandYearAccordion target="LongTerm"/>
 
+            {result.docs.map((doc, i) => {
+                return (
+                    <div key={i}>
+                        <Separator className="my-10"/>
+                        <h1 className="text-3xl font-extrabold tracking-tight text-balance mt-12">
+                            {doc.title}
+                        </h1>
+                    </div>
+                )
+            })}
 
             <div className="mt-24 mx-auto w-fit text-xs">
                 <p>Credits to <Link className="text-(--pink-color) hover:underline"
