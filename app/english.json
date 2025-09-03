@@ -139,7 +139,7 @@
       "details": [
         "In March, an amendment to the Armed Forces Law (UU TNI) provided opportunities for active soldiers to serve in public offices. Many parties demanded that the TNI openly commit to leave civil spaces alone."
       ],
-      "status": "Unfulfilled",
+      "status": "In Progress",
       "target": "TNI"
     },
     {
@@ -148,7 +148,7 @@
       "details": [
         "As of February 2025, 47% of Indonesian workers were paid below the minimum wage. Yes, you read it correctly: almost half of our workers do not receive a decent wage."
       ],
-      "status": "Unfulfilled",
+      "status": "In Progress",
       "target": "Menko"
     },
     {
@@ -157,7 +157,7 @@
       "details": [
         "Some 40,000 workers have been laid off until July 2025. This number increased by around 30% from the same period last year."
       ],
-      "status": "Unfulfilled",
+      "status": "In Progress",
       "target": "Menko"
     },
     {
@@ -166,18 +166,8 @@
       "details": [
         "There are a number of outsourcing laborers with uncertain legal status, and their wage is way below standards. Can you imagine working for dozens of years, getting paid with a stagnant amount of money, and no clear career path?"
       ],
-      "status": "Unfulfilled",
+      "status": "In Progress",
       "target": "Menko"
-    },
-    {
-      "index": "18",
-      "title": "\"Clean up\" and overhaul DPR on a large scale.",
-      "details": [
-        "Launch independent audits that are open to the public. Raise qualification standards for MPs, and reject corruption convicts to become MPs.",
-        ""
-      ],
-      "status": "Unfulfilled",
-      "target": "LongTerm"
     }
   ]
 }

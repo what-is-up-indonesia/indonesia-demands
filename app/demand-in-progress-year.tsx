@@ -21,7 +21,7 @@ import {DaysLeftCalculate} from "@/app/days-left-calculate";
 
 export const description = "A radial chart with stacked sections"
 
-const chartData = [{unfulfilled: 7, in_progress: 1, fulfilled: 0 }]
+const chartData = [{unfulfilled: 6, in_progress: 2, fulfilled: 0 }]
 
 const chartConfig = {
     unfulfilled: {
